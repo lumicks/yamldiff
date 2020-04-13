@@ -1,5 +1,5 @@
 __title__ = 'yamldiff'
-__version__ = '0.1.0'
+__version__ = '0.1.2'
 __summary__ = 'Semantic comparison between YAML files'
 __url__ = 'https://github.com/lumicks/yamldiff'
 

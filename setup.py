@@ -7,7 +7,7 @@ if sys.version_info[:2] < (3, 6):
     print("Python >= 3.6 is required.")
     sys.exit(-1)
 
-requires = ['ruamel.yaml==0.15.66', 'colorama>=0.3.9']
+requires = ['ruamel.yaml>=0.15.66', 'colorama>=0.3.9']
 
 def about(package):
     ret = {}
