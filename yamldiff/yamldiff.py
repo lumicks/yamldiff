@@ -167,7 +167,7 @@ class YamlDiffer:
     def _node_type(x):
         if x is None:
             return NodeType.NULL
-        elif isinstance(x, collections.Mapping):
+        elif isinstance(x, collections.abc.Mapping):
             return NodeType.MAP
         elif isinstance(x, collections.abc.Sequence) and not isinstance(x, str):
             return NodeType.LIST
